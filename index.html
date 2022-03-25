@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html, body {
+      margin: 0;
+    }
+  </style>
+  <script type="module" src="./scripts/ButtonGame.js"></script>
+  <script type="module" src="./scripts/FrontPanel.js"></script>
+  <script type="module" src="./scripts/List.js"></script>
+  <script type="module" src="./scripts/Item.js"></script>
+</head>
+<body>
+  <list-element>
+    <item-element selected="show" color="000000">
+      <span slot="title">Me</span>
+    </item-element>
+    <item-element selected="show" color="000000">
+      <span slot="title">Profile</span>
+    </item-element>
+    <item-element selected="show" color="000000">
+      <span slot="title">Contact</span>
+    </item-element>
+    <item-element selected="show" color="000000">
+      <span slot="title">Social</span>
+    </item-element>
+  </list-element>
+
+  <front-panel stat="hide">
+    
+  </front-panel>
+</body>
+</html>
